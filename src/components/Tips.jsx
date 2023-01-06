@@ -14,7 +14,7 @@ function Tips() {
                 <ul>
                   <li>
                     <div className="icon">
-                      <img src="../public/img/service-icon-01.png" alt="" />
+                      <img src="img/service-icon-01.png" alt="" />
                     </div>
                     <div className="right-content">
                       <h4>ANALİZ ET </h4>
@@ -23,7 +23,7 @@ function Tips() {
                   </li>
                   <li>
                     <div className="icon">
-                      <img src="../public/img/service-icon-02.png" alt="" />
+                      <img src="img/service-icon-02.png" alt="" />
                     </div>
                     <div className="right-content">
                       <h4>STRATEJİ OLUŞTUR</h4>
@@ -32,7 +32,7 @@ function Tips() {
                   </li>
                   <li>
                     <div className="icon">
-                      <img src="../public/img/service-icon-03.png" alt="" />
+                      <img src="img/service-icon-03.png" alt="" />
                     </div>
                     <div className="right-content">
                       <h4>UYGULA</h4>
@@ -44,7 +44,7 @@ function Tips() {
             </div>
             <div className="col-lg-6 align-self-center">
               <div className="right-image">
-                <img src="../public/img/good-tips-right-image.png" alt="" />
+                <img src="img/good-tips-right-image.png" alt="" />
               </div>
             </div>
           </div>
