@@ -1,6 +1,6 @@
 import React,{ useState, useContext } from 'react'
 import './App.css'
-import { BrowserRouter, Routes, Route, Router } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 import Header from './components/Header'
 import Home from './pages/Home'
 import Footer from './components/Footer'
@@ -15,16 +15,16 @@ function App() {
   console.log(user)
   return (
     <>
-  <div className="App">
+    <BrowserRouter>
     <Header />
-      <Routes>
+    <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={user ? <Home/> : <Login />} />
           <Route path="/services" element={<Services />} />
           <Route path="*" element={<Register />} />
         </Routes>
     <Footer />
-    </div>
+    </BrowserRouter>
     </>
    
 
