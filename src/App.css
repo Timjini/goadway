@@ -6,32 +6,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* .container {
-    width: 100%;
-
-    margin-right: auto;
-    margin-left: auto;
-}
-
-@media (min-width: 576px){
-    .container {
-        max-width: 540px;
-    }
-}
-
-
-@media (min-width: 768px){
-    .container {
-        max-width: 720px;
-    }
-}
-
-
-@media (min-width: 700px){
-    .container {
-        max-width: 960px;
-    }
-} */
 
 /* Login Form Styling */
 
@@ -47,7 +21,7 @@
 /* Footer Styling */
 section.footer-content .cta-footer {
     padding: 70px 0px 70px 0px;
-    background-image: url(./assets/cta-bg.jpg);
+    background-image: url(../public/img/cta-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -55,7 +29,7 @@ section.footer-content .cta-footer {
 
 section.footer-content .main-footer {
     padding: 20px 0px 40px 0px;
-    background-image: url(./assets/footer-bg.jpg);
+    background-image: url(../public/img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -183,7 +157,7 @@ section.features .main-purple-button {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(./assets/baner-decoration.png);
+    background-image: url(../public/img/baner-decoration.png);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -257,7 +231,7 @@ section.features .main-purple-button {
 
 section.good-tips {
     padding: 80px 0px;
-    background-image: url(./assets/good-tips.jpg);
+    background-image: url(../public/img/good-tips.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;

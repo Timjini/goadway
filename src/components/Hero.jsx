@@ -10,7 +10,7 @@ function Hero() {
             <h1>Dijital Pazarlama, Tasarım<br/>&amp; SEO Ajansı</h1>
         
             <div className="main-decoration">
-              <img src="../public/images/baner-main-decoration.png" alt=""/>
+              <img src="../public/img/baner-main-decoration.png" alt=""/>
             </div>
           </div>
         </div>
