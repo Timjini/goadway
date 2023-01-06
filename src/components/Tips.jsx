@@ -7,8 +7,8 @@ function Tips() {
           <div className="row">
             <div className="col-lg-6 align-self-center">
               <div className="section-heading">
-                <h6>Başarıya ulaşmanızda ki temel adımlar.</h6>
-                <h2>GOADWAY NASIL ÇALIŞIR?</h2>
+                <h6>Steps to sucess.</h6>
+                <h2>WHY GOADWAY ?</h2>
               </div>
               <div className="tips-content">
                 <ul>
@@ -17,7 +17,7 @@ function Tips() {
                       <img src="img/service-icon-01.png" alt="" />
                     </div>
                     <div className="right-content">
-                      <h4>ANALİZ ET </h4>
+                      <h4>WE ANALYZE THE BUSINESS </h4>
                       <p>Müşterilerimizin hedeflerini ve beklentilerini dinliyoruz, mevcut durumlarını analiz edip ihtiyaclarını belirliyoruz.</p>
                     </div>
                   </li>
@@ -26,7 +26,7 @@ function Tips() {
                       <img src="img/service-icon-02.png" alt="" />
                     </div>
                     <div className="right-content">
-                      <h4>STRATEJİ OLUŞTUR</h4>
+                      <h4>CUSTOM TAILORED THE STRATEGY</h4>
                       <p>Müşterilerimizin hedefleri doğrultusunda verdiği briefler ile dijital pazarlama stratejilerini oluşturuyoruz.</p>
                     </div>
                   </li>
@@ -35,7 +35,7 @@ function Tips() {
                       <img src="img/service-icon-03.png" alt="" />
                     </div>
                     <div className="right-content">
-                      <h4>UYGULA</h4>
+                      <h4>APPLY & REPORT</h4>
                       <p>Planladığımız dijital pazarlama stratejilerini belirlediğimiz kanallarda uyguluyoruz ve anlık optimizasyonlar ile tüm süreci yönetiyoruz.</p>
                     </div>
                   </li>

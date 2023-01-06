@@ -10,11 +10,11 @@ function Section() {
                 <div className="icon">
                   <img src='img/service-icon-01.png' alt="" />
                 </div>
-                <h4>Kreatif Tasarımlar</h4>
-                <p>Markanıza ve iletişim stratejilerinize uygun basılı ve dijital tasarımlar yaratıyoruz.</p>
+                <h4>Reach & Awarness</h4>
+                <p>Seo, blogging and other organic marketing channels to boost your traffic.</p>
               </div>
               <div className="main-purple-button">
-                <a href="kreatif-tasarimlar.html">Okumaya devam et</a>
+                <a href="#">Read More</a>
               </div>
             </div>
             <div className="col-lg-4">
@@ -22,11 +22,11 @@ function Section() {
                 <div className="icon">
                   <img src="img/service-icon-02.png" alt="" />
                 </div>
-                <h4>Dijital Pazarlama</h4>
-                <p>Google, programatik ve sosyal medya reklamları, SEO, E-ticaret gibi dijital pazarlama seçenekleri sunuyoruz. </p>
+                <h4>Planning</h4>
+                <p>Choosing the strategy that fits your business model is a hustle...</p>
               </div>
               <div className="main-purple-button">
-                <a href="pazarlama-stratejisi.html">Okumaya devam et</a>
+                <a href="#">Read More</a>
               </div>
             </div>
             <div className="col-lg-4">
@@ -34,11 +34,11 @@ function Section() {
                 <div className="icon">
                   <img src="img/service-icon-03.png" alt="" />
                 </div>
-                <h4>Website Tasarımı</h4>
-                <p>Kurumsal, e-ticaret, rezervasyon, kişiye özel ihtiyaca yönelik trendlere uygun web sitesi  </p>
+                <h4>Analytics</h4>
+                <p>Set up the right tools to follow your business growth closley, latest Online Marketing tools</p>
               </div>
               <div className="main-purple-button">
-                <a href="web-tasarim.html">Okumaya devam et</a>
+                <a href="#">Read More</a>
               </div>
             </div>
           </div>

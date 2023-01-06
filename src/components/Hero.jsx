@@ -6,8 +6,8 @@ function Hero() {
       <div className="parallax-banner">
         <div className="inner-header">
           <div className="inner-content">
-            <h4>Hedeflerinize inanıyoruz, tek ihtiyacınız doğru iş ortağı!</h4>
-            <h1>Dijital Pazarlama, Tasarım<br/>&amp; SEO Ajansı</h1>
+            <h4>Reach your goals through the right partnership.</h4>
+            <h1>Digital Marketing<br/>&amp; SEO Agency</h1>
         
             <div className="main-decoration">
               <img src="img/baner-main-decoration.png" alt=""/>

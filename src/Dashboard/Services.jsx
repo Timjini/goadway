@@ -6,7 +6,7 @@ function Services() {
     
     useEffect(() => {
         const getServices = async () => {
-        const res = await axios.get('http://localhost:3000/api/services')
+        const res = await axios.get('http://goadway-api.onrender.com/api/services')
         setServices(res.data)
         }
         getServices()

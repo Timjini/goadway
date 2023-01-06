@@ -9,7 +9,7 @@ function Register() {
     const handleSubmit = async (e) => {
         e.preventDefault();
          //aync await
-        const res = await axios.post('http://localhost:3000/api/auth/register', {
+        const res = await axios.post('http://goadway-api.onrender.com/api/auth/register', {
             username,
             email,
             password

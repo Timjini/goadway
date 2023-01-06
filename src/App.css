@@ -6,6 +6,17 @@
     font-family: 'Poppins', sans-serif;
 }
 
+a{ 
+    text-decoration: none;
+    color :#f5f5f5;
+}
+a:hover {
+    text-decoration: none;
+    color: #f73b4b;
+}
+ul{
+    list-style: none;
+}
 
 /* Login Form Styling */
 
@@ -21,7 +32,7 @@
 /* Footer Styling */
 section.footer-content .cta-footer {
     padding: 70px 0px 70px 0px;
-    background-image: url(../public/img/cta-bg.jpg);
+    background-image: url(/img/cta-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -29,7 +40,7 @@ section.footer-content .cta-footer {
 
 section.footer-content .main-footer {
     padding: 20px 0px 40px 0px;
-    background-image: url(../public/img/footer-bg.jpg);
+    background-image: url(/img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
