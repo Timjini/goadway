@@ -1,12 +1,33 @@
-import { useState } from 'react'
+import React,{ useState, useContext } from 'react'
 import './App.css'
+import { BrowserRouter, Routes, Route, Router } from 'react-router-dom'
+import Header from './components/Header'
+import Home from './pages/Home'
+import Footer from './components/Footer'
+import Login from './Dashboard/Login'
+import Services from './Dashboard/Services'
+import Register from './Dashboard/Register'
+import { Context } from './context/Context'
 
 function App() {
+  const {user} = useContext(Context)
 
+  console.log(user)
   return (
-    <div className="App">
-     <h1 className='text-blue-600 p-5'>Hello World</h1>
+    <>
+  <div className="App">
+    <Header />
+      <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={user ? <Home/> : <Login />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="*" element={<Register />} />
+        </Routes>
+    <Footer />
     </div>
+    </>
+   
+
   )
 }
 
