@@ -10,7 +10,7 @@ function Hero() {
             <h1>Digital Marketing<br/>&amp; SEO Agency</h1>
         
             <div className="main-decoration">
-              <img src="img/baner-main-decoration.png" alt=""/>
+              <img src="img/baner-main-decoration.png" alt="" className='img-fluid'/>
             </div>
           </div>
         </div>

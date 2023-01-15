@@ -11,6 +11,21 @@ export default function Header() {
   };
   return (
     <>
+
+    <div className="container">
+      <div className="row">
+        <div className="col-md-3">
+          <div className="logo">
+            <img src="img/logo.png" alt="" className='img-fluid'/>
+          </div>
+        </div>
+      </div>
+    </div>
+    {user ? (
+      <button onClick={handleLogout}>Logout</button>
+    ) : (
+      <a href="/login">Login</a>
+    )}
     </>
   )
 }

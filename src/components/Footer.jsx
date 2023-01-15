@@ -7,12 +7,10 @@ function Footer() {
       <div className="cta-footer">
         <div className="container">
           <div className="row">
-            <div className="col-lg-8">
-              <h2>Satışları arttırmak ya da marka bilinirliği yaratmak İster misiniz?</h2>
-            </div>
-            <div className="col-lg-4">
-              <div className="main-white-button">
-                <a href="contact.html">Şimdi başla</a>
+            <div className="col">
+              <h2 className='text-white'>Increase sales or create brand awareness?</h2>
+              <div className="main-purple-button pt-2">
+                <a href="#">Start Today!</a>
               </div>
             </div>
           </div>

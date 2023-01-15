@@ -356,6 +356,23 @@ section.related-products .section-heading {
     max-width: 100%;
 }
 
+.tipIcon{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.icon {
+
+    max-width: 100px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 20%;
+    
+}
+
 /* Mobile */
 
 @media (min-width: 500px){
@@ -381,3 +398,12 @@ section.seo-courses .main-purple-button {
 }
 
 
+/* Form */
+
+.form-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
